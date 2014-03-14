@@ -3,14 +3,24 @@ layout: default
 title: Iguana Studios
 ---
 
-<div class="content">
-  {% for post in site.posts %}
-    <div class="post">
-      <img src={{ post.image }} alt={{ post.title }} class="img-rounded img-responsive center-block image">
-      <h3> {{ post.title }} </h3>
-      <a href="http://itunes.apple.com/app/{{ post.appleid }}">
-        <img src="images/app_store.png" alt="Apple Store">
-        </a>
-    </div>
-  {% endfor %}
+{% for post in site.posts %}
+  <div class="post">
+    <img src={{ post.image }} alt={{ post.title }} class="img-rounded img-responsive center-block image">
+    <h3> {{ post.title }} </h3>
+    <a href="http://itunes.apple.com/app/{{ post.appleid }}">
+      <img src="images/app_store.png" alt="Apple Store">
+    </a>
+  </div>
+{% endfor %}
+
+<div class="about center-block">
+  <h2> About </h2>
+  <p class="text"><span class="bold">Iguana Studios</span> is a personal indie game studio created by <a href="http://luisflores.mx" class="link">Luis Flores</a>.</p>
+  <p class="text">I create simple iOS games for fun.</p>
+  <p class="text">FIN</p>
+</div>
+
+<div class="footer">
+<img src="images/logo_iguana.png" alt="Logo Iguana" class="center-block image-footer">
+<p class="credit">© 2014 Iguana Studios</p>
 </div>
