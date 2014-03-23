@@ -58,7 +58,9 @@ body {
 }
 
 .facebook-button {
-  padding-bottom: 5px;
+  height:21px;
+  width:80px;
+  margin-bottom: 5px;
 }
 
 .footer {
