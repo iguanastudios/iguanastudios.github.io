@@ -1,16 +1,21 @@
 body {
+  background-image: url('bg.png');
+  background-repeat: repeat;
   padding-top: 20px;
-  background-color: #FAFAFA;
   border-top: 5px;
   border-top-style: solid;
   border-top-color: #B21817
+}
+
+.logo {
+  padding-bottom: 30px;
 }
 
 .post {
   text-align: center;
   float: none;
   margin: auto;
-  padding: 40px;
+  padding-bottom: 40px;
 }
 
 .text { 
@@ -27,6 +32,7 @@ body {
   border-radius: 10px;
   box-shadow: 10px 10px 5px #888888;
   width: 500px;
+  margin-bottom: 15px;
 }
 
 .about {
