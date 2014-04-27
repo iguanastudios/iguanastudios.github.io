@@ -1,5 +1,5 @@
 ---
-title: Lost Butterfly
+title: Fly Butterfly
 image: /assets/butterfly.png
-link: https://itunes.apple.com/us/app/lost-butterfly/id834334049
+link: https://itunes.apple.com/us/app/fly-butterfly/id857838948
 ---
