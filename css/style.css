@@ -7,8 +7,12 @@ body {
   border-top-color: #B21817
 }
 
+.container {
+  max-width: 500px;
+}
+
 .logo {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .post {
@@ -18,7 +22,7 @@ body {
   padding-bottom: 40px;
 }
 
-.text { 
+.text {
   font-family: 'Gafata', sans-serif;
   font-weight: 400;
   font-size: 130%;
@@ -26,18 +30,13 @@ body {
 }
 
 .image {
-  border: 2px;
-  border-style: solid;
-  border-color: #12C4CF;
-  border-radius: 10px;
+  border-radius: 30px;
   box-shadow: 10px 10px 5px #888888;
-  width: 500px;
   margin-bottom: 15px;
 }
 
 .about {
   text-align: center;
-  max-width: 500px;
 }
 
 .image-footer {
@@ -82,14 +81,14 @@ body {
   color: #2A757E;
 }
 
-h2 { 
+h2 {
   font-family: 'Gafata', sans-serif;
   font-weight: 400;
   font-size: 250%;
   color: #2A757E;
 }
 
-h3 { 
+h3 {
   font-family: 'Gafata', sans-serif;
   font-weight: 400;
   font-size: 200%;
